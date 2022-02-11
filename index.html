@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NetFlix clone</title>
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+      body{
+          background-color: black;
+
+      }
+    .main{
+        background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.3)),url("background.jpg");
+        height: 120vh;
+        object-fit: fill;
+        display: flex;
+        background-repeat: no-repeat;
+      
+        
+    }
+    .back a img{
+        margin-left: 40px;
+        opacity: 0.8;
+    
+    }
+    /* .back a img{
+        opacity: 0.0;
+    } */
+    .back h1{
+        color: white;
+        position: relative;
+        left: 388px;
+        top: 15vh;
+        font-family: 'Poppins', sans-serif;
+        font-size: 65px;
+        
+    } 
+    .back h2{
+        color: white;
+        position: relative;
+        left: 452px;
+        top: 4.5vh;
+        font-family: 'Poppins', sans-serif;
+        font-size: 65px;
+        
+    }
+    .back h3{
+        color: white;
+        position: relative;
+        left: 520px;
+        top: -2vh;
+        font-family: 'Roboto', sans-serif;
+        font-size: 25px;
+    } 
+    .back h4{
+        color: white;
+        position: relative;
+        left: 420px;
+        top: 1vh;
+        font-family: 'Roboto', sans-serif;
+        font-size: 17px;
+    } 
+    .back input{
+        position: relative;
+        left: 350px;
+        top: 1vh;
+        width: 450px;
+        height: 62px;
+        border-radius: 2px;
+        font-size: small;
+        font-family: 'Poppins', sans-serif;
+
+    }
+    .back button{
+        position: relative;
+        left: 344px;
+        top: 1.6vh;
+        width: 195px;
+        height: 67.8px;
+        border-radius: 2px;
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        cursor: pointer;
+        font-size: 25px;
+        background-color: red;
+
+    }
+    /* .but button{
+        position: relative;
+        left: 137px;
+        top: 75.5vh;
+        width: 200px;
+        height: 67.8px;
+        font-size: 25px;
+        background-color: red;
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        cursor: pointer;
+        
+    } */
+    .sign button{
+        position: relative;
+        left: 75vh;
+        width: 77px;
+        height: 30px;
+        background-color: red;
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        top: 2.6vh;
+        border-radius: 2.5px;
+        cursor: pointer;
+        font-size: 15px;
+        
+    }
+    .langw select{
+     position: relative;
+     left: 47vh;
+     top: 2.6vh;
+     width: 95px;
+     height: 40px;
+     opacity: 0.7;
+     border-radius: 4px;
+     background-color: black;
+     color: white;
+     font-family: 'Poppins', sans-serif;
+     font-size: 15px;
+    }
+    .langw select option{
+        color: white;
+        background-color: grey;
+    }
+    </style>
+</head>
+<body class="main">
+    <div class="back">
+        <a href="#"><img src="Netflix-Logo.png" alt="Netflix-Logo"width="170px" height="90px"></a>
+        <h1>Unlimited movies, TV</h1>
+        <h2>shows and more.</h2>
+        <h3>Watch anywhere. Cancel anytime</h3> 
+        <h4>Ready to watch? Enter your email to create or restart your membership.</h4>
+        <input type="text" placeholder="Email address">       
+        <button>Get started > </button>
+    </div>
+    <!-- <div class="but">
+        <button>Get started > </button>
+    </div> -->
+    <div class="sign">
+        <button>Sign In</button>
+
+    </div>
+    <div class="langw">
+        <select>
+            <option> English</option>
+            <option> Franais</option>
+            <option>Telgue</option>
+            <option>Hindi</option>
+            <option>Marathi</option>
+        </select>
+    </div>
+</body>
+</html>
